@@ -1,12 +1,6 @@
 import re
-"""
- i used "https://github.com/STRstark/Ds-Classes-In-Python/blob/main/DataStructures-Py/Project/Project.py" for initial structure 
- with some change in pre initialize the tree with the first two digits of a phone number in way to 
- Flexibility and Dynamic Tree Construction .
 
- Matin Mohammadi : 40011173069
 
-"""
 class Contact:
     def __init__(self, full_name, nickname, phone_number, email, job_info):
         self.full_name = full_name
